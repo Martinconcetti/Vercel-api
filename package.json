@@ -2,6 +2,7 @@
   "name": "topgaming-api",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "start": "vercel dev"
   },
@@ -10,5 +11,8 @@
     "axios-cookiejar-support": "^1.0.1",
     "cheerio": "^1.0.0-rc.12",
     "tough-cookie": "^4.0.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
